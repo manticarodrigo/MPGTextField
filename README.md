@@ -1,10 +1,11 @@
-#SearchTextField
-An autocomplete textfield which provides suggestions as you type. This is forked from https://github.com/gaurvw/MPGTextField optimized for Swift.
+## SearchTextField
+An autocomplete textfield which provides suggestions as you type. This repo is forked from https://github.com/gaurvw/MPGTextField, optimized for Swift.
  
-<H2>SETUP</H2>
-* Copy the SearchTextField.swift file into your project.
-* Add SearchTextFieldDelegate to the class.
-* Implement the following required function:
+<H2>Setup</H2>
+- Copy `SearchTextField.swift` file into your project.
+- Add `SearchTextFieldDelegate` to the class.
+- Implement the following required function:
+
 ```swift
 
 func dataForPopoverInTextField(_ textfield: SearchTextField) -> [NSDictionary] {
@@ -13,7 +14,7 @@ func dataForPopoverInTextField(_ textfield: SearchTextField) -> [NSDictionary] {
 
 ```
 
-* Optionally implement the following functions:
+- Optionally implement the following functions:
 
 ```swift
 
@@ -33,4 +34,4 @@ func textFieldDidEndEditing(textField: SearchTextField, withSelection data: NSDi
 }
 
 ```
-* All done! Enjoy :)
+All done! Enjoy :)
